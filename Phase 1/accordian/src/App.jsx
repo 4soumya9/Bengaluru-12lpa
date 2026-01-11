@@ -1,6 +1,8 @@
 import "./App.css";
 import Accordian from "./components/Accordian";
 import Carousel from "./components/Carousel/Carousel";
+import Dropdown from "./components/DropDownSearch/Dropdown";
+import Drop from "./components/NormalDropDown/Drop";
 import Star from "./components/Star Component/Star";
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
     <>
       {/* <Accordian /> */}
       {/* <Star /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      {/* <Dropdown /> */}
+      <Drop />
     </>
   );
 }
