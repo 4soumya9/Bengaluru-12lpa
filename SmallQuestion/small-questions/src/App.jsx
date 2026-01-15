@@ -1,5 +1,6 @@
 import "./App.css";
 import Paremntt from "./components/ChildToParent/Paremntt";
+import Parenttttt from "./components/ChildToParentUsingRef/Parent";
 import COunterr from "./components/CountersWithReducers/COunterr";
 import P from "./components/DataFromPareantToChild/P";
 import Parent from "./components/ForwardRef/Parent";
@@ -12,7 +13,8 @@ function App() {
       {/* <Parent /> */}
       {/* <Paremntt /> */}
       {/* <P /> */}
-      <COunterr />
+      {/* <COunterr /> */}
+      <Parenttttt />
     </div>
   );
 }
