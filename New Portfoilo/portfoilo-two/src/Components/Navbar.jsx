@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaBriefcase, FaSun, FaMoon } from 'react-icons/fa';
 import './Navbar.css';
 
@@ -8,10 +9,10 @@ const Navbar = ({ theme, toggleTheme }) => {
             <div className="navbar-brand">Soumyajit.</div>
 
             <div className="navbar-center">
-                <a href="#home">Home</a>
-                <a href="#projects">Featured projects</a>
-                <a href="#about">About me</a>
-                <a href="#contact">Contact me</a>
+                <Link to="#home">Home</Link>
+                <Link to="#projects">Featured projects</Link>
+                <Link to="#about">About me</Link>
+                <Link to="#contact">Contact me</Link>
             </div>
 
             <div className="navbar-right">
